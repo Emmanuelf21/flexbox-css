@@ -57,16 +57,51 @@ body{
 }
 
 .section_apt{
-    width: 80%;
-    height: 400px;
+    width: 70%;
+    height: 500px;
 
     display: flex;
     flex-direction: row;
     
     margin: auto;
     margin-top: 30px;
+
+    border: 1px solid rgb(161, 159, 159);
+    border-radius: 0px 20px 0px 0px;
+    background-color: rgba(174, 174, 174, 0.078);
+}
+.section_apt img{
+    width: 57%;
+    height: 500px;
 }
 
 .artigo_apt{
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo_apt{
+    font-size: 30px;
+    border-bottom: 2px solid gray;
+}
+
+.apt_texto{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.btn_saiba_mais{
+    background-color: rgba(6, 171, 6, 0.932);
+
+    width: 200px;
+    height: 45px;
+
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.806);
+
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
 }
