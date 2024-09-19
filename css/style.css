@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Dancing;
+    src: url(../fonte/DancingScript-VariableFont_wght.ttf);
+}
+
+.logo{
+    background: linear-gradient(to left, #3494e6, #027f4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+
+    font-family: Dancing;
+    font-weight: 800px;
+    font-size: 50px;
+}
