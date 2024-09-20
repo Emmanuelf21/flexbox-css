@@ -60,6 +60,10 @@ body{
     color: black;
 }
 
+.links_menu:hover{
+    text-shadow: 5px 5px 10px grey;
+}
+
 .section_apt{
     width: 85%;
     height: 500px;
