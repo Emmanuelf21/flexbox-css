@@ -29,7 +29,7 @@
     width: 300px;
     height: 200px;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 5px;   
 }
 
 .fachada_imagens_x5 img, .fachada_principal img{
@@ -40,11 +40,10 @@
 .texto_fachada{
     width: 350px;
 
-    margin-left: 35%;
+    margin: auto;
 
     background: linear-gradient(to right, blue, rgb(244, 132, 3));
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: inline-block;
-    
+    display: flex;
 }
