@@ -4,8 +4,12 @@
 }
 body{
     width: 100%;
-    height: 100%;
     margin: auto;
+}
+
+.container{
+    height: 100%;
+    margin: auto;   
 }
 
 .cabecalho{
@@ -57,7 +61,7 @@ body{
 }
 
 .section_apt{
-    width: 70%;
+    width: 85%;
     height: 500px;
 
     display: flex;
@@ -92,16 +96,107 @@ body{
 }
 
 .btn_saiba_mais{
-    background-color: rgba(6, 171, 6, 0.932);
+    background-color: rgb(0, 42, 212);
 
     width: 200px;
     height: 45px;
 
-    border: 2px solid green;
+    border: 1px solid blue;
     border-radius: 10px;
-    box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.806);
-
+    
     font-size: 20px;
     color: white;
     cursor: pointer;
+
+    transition: box-shadow 700ms;
+
+}
+
+.apartamentos{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artigo_apt_02{
+    width: 30%;
+    margin-bottom: 40px;
+
+    border: 1px solid rgba(161, 159, 159, 0.747);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.artigo_apt_02 img{
+    width: 100%;
+    height: 200px;
+    
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sobre_apt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+
+.titulo_apt_02{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border-bottom: 2px solid rgba(128, 128, 128, 0.438);
+}
+
+.btn_sm_apts{
+    margin: auto;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+
+    width: 120px;
+    height: 25px;
+
+    background-color: rgb(0, 42, 212);
+    border: 1px solid blue;
+    border-radius: 5px;
+
+    color: white;
+
+    transition: box-shadow 700ms;
+}
+
+.btn_sm_apts:hover, .btn_saiba_mais:hover{
+    box-shadow: 0px 0px 8px blue;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(163, 163, 163);
+}
+
+.menu_footer{
+    width: 360px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+.menu_footer img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.menu_footer span{
+    width: 300px;    
 }
