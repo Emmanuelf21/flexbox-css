@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+}
+
+.fachada_principal{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.fachada_principal img{
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+}
+
+
+.fachada_imagens_x5{
+    display: flex;
+    flex-direction: row;
+    width: 76%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.fachada_imagens_x5 img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.fachada_imagens_x5 img, .fachada_principal img{
+    border: 1px solid rgba(131, 131, 131, 0.669);  
+    background: linear-gradient(to top, black, grey);
+}
+
+.texto_fachada{
+    width: 350px;
+
+    margin-left: 35%;
+
+    background: linear-gradient(to right, blue, rgb(244, 132, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    
+}
